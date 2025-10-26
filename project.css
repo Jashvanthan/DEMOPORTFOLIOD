@@ -1,0 +1,137 @@
+nav{
+    margin: 0px;
+    padding: 0px;
+    border-style: outset;
+    border-width:0px;
+    background-attachment:fixed;
+    position: sticky;
+    top:0px;
+    display: inline-block;
+    width: 100%;
+    background-color:black;
+    border-color: black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px black;
+    opacity: 0.7;
+    transition: 0.4s;
+    z-index: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 55%;
+    color: white;
+}
+li{
+    margin: 10px;
+}
+nav button
+{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+    transition: 80ms;
+}
+nav button:hover
+{
+    height: 50px;
+    width: 120px;
+    text-decoration:underline;
+    text-shadow: 1px 1px 4px 5px black;
+    box-shadow: 1px  1px 7px  beige;
+    transform: translateX(-10px);
+    transition: 100ms;
+}
+a{
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+}
+nav:hover
+{
+     border-style: outset;
+    border-width:0px;
+    height: 75px;
+    background-attachment: fixed;
+    display: inline-block;
+    width: 100%;
+    background-color:black;
+    border-color: black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 6px black;
+    opacity: 0.8;
+    transform: translateY(7px);    
+    transition: 0.5s;
+}
+.project{
+    color: white;
+    padding: 30px;
+    margin-left: 5%;
+}
+table
+{
+    background-color:#2f2e2e;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    text-transform: capitalize;
+    animation-name:new1;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    box-shadow: 2px 2px 4px #2f2e2e;
+    box-shadow: 1px 1px 5px black;
+   
+}
+@keyframes new1{
+    25%{
+        transform: translateY(500px) rotate(10deg);
+    }
+    90%{
+        transform: translateY(0%) rotate(-5deg);
+    }
+}
+td{
+    height:100px;
+    width:800px;
+}
+
+.project button{
+    height:45px;
+    width:80px;
+    margin-left:30px;
+    text-transform: capitalize;
+    background-color: cadetblue;
+    border: cadetblue 2px solid;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px cadetblue;
+    transition: 500ms;
+}
+.project button:hover{
+    height:55px;
+    width:100px;
+    text-decoration: underline;
+    background-color: cadetblue;
+    border: cadetblue 2px solid;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px cadetblue;
+    transform: translateX(-10px);
+    transition: 1s;
+}
+.project .b1{
+    text-align: right;
+}
+h1{
+    color: black;
+    margin-left:300px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px white;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #2f2e2e;
+}
